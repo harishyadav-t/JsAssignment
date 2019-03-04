@@ -26,6 +26,8 @@ describe('bubbleSort', function() {
         assert.notEqual(result.toString(),[1,3,4,5,6,85,23].toString());
         var result =bubbleSort([1,31,24,5,6,85,23]);
         assert.equal(result.toString(),[1,5,6,23,24,31,85].toString());
+        var result =bubbleSort([-11,-31,24,-5,6,85,23]);
+        assert.equal(result.toString(),[-31,-11,-5,6,23,24,85].toString());
     }) 
     
   });

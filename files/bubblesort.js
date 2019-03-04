@@ -10,7 +10,7 @@ module.exports = function bubble_sort(arrayOfElements){
                 swapDone = true;
             }
         }
-        if(!swapDone){
+        if(!swapDone){ 
             break;
         }
     }
